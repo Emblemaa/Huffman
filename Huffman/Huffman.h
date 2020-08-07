@@ -23,7 +23,6 @@ private:
 	std::queue<Node*> nodes, trees;
 	std::string data = "";
 	Node* root = nullptr;
-	HuffmanTree(std::string dat);
 	std::map<char, std::vector<bool>> codes;
 
 	void parse_string();
@@ -31,8 +30,13 @@ private:
 	void create_code(Node* current);
 
 public:
-	std::vector<bool> encode(std::string input);
-	std::string decode(std::vector<bool> input);
+	HuffmanTree(std::string dat);
+
+	std::vector<bool> encode(std::string &input);
+	bool decode(std::vector<bool> &input, std::string &outputs);
+
+	void del(Node* current);
+	void clear();
 };
 
 #endif

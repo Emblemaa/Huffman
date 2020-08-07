@@ -104,7 +104,7 @@ HuffmanTree::HuffmanTree(std::string dat)
 	HuffmanTree::create_code(HuffmanTree::root);
 }
 
-std::vector<bool> HuffmanTree::encode(std::string inputs)
+std::vector<bool> HuffmanTree::encode(std::string &inputs)
 {
 	std::vector<bool> results;
 
@@ -114,23 +114,49 @@ std::vector<bool> HuffmanTree::encode(std::string inputs)
 	return results;
 }
 
-std::string HuffmanTree::decode(std::vector<bool> inputs)
+bool HuffmanTree::decode(std::vector<bool> &inputs, std::string &outputs)
 {
 	Node* current = HuffmanTree::root;
-	std::string result = "";
+	outputs = "";
 
 	for (auto input : inputs)
 	{
+		if (current == nullptr)
+		{
+			std::cout << "Decoding Error: Code does not comply with internal encoding scheme." << std::endl;
+			return false;
+		}
+
 		if (input)
 			current = current->right;
 		else current = current->left;
 		
 		if (current->left == nullptr)
 		{
-			result += current->data;
+			outputs += current->data;
 			current = HuffmanTree::root;
 		}
 	}
 
-	return result;
+	return true;
+}
+
+void HuffmanTree::del(Node* current)
+{
+	if (current != nullptr)
+	{
+		current->code.clear();
+		HuffmanTree::del(current->left);
+		HuffmanTree::del(current->right);
+	}
+}
+
+void HuffmanTree::clear()
+{
+	data = "";
+	codes.clear();
+	HuffmanTree::del(HuffmanTree::root);
+
+	while (!nodes.empty()) nodes.pop();
+	while (!trees.empty()) trees.pop();
 }
