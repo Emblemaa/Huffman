@@ -1,0 +1,8 @@
+.vs
+x64
+Debug
+Huffman/Debug
+Huffman/x64
+*.exe
+*.so
+*.o
