@@ -41,7 +41,11 @@ void fixed(std::ofstream &fo, size_t len, int num, int loop)
 
 	std::random_device random_device;
 	std::mt19937 generator(random_device());
-	std::uniform_int_distribution<> distribution(0, int(CHARACTERS.size()) - 1);
+
+	if (false)
+		std::uniform_int_distribution<> distribution(0, int(CHARACTERS.size()) - 1);
+	else
+		std::binomial_distribution<> distribution(int(CHARACTERS.size()) - 1, .5);
 
 	for (int i = 0; i < loop; ++i)
 	{

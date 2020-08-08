@@ -149,10 +149,12 @@
   <ItemGroup>
     <ClCompile Include="Huffman.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sizing.cpp" />
     <ClCompile Include="Timing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Huffman.h" />
+    <ClInclude Include="Sizing.h" />
     <ClInclude Include="Timing.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
