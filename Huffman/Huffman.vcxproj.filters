@@ -39,4 +39,93 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="10_0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10_1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10_2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10_3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100_0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100_1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100_2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100_3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1000_0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1000_1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1000_2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1000_3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10000_0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10000_1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10000_2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10000_3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100000_0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100000_1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100000_2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100000_3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1000000_0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1000000_1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1000000_2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="1000000_3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10000000_0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10000000_1.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10000000_2.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="10000000_3.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="100000000_0.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

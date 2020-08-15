@@ -157,6 +157,37 @@
     <ClInclude Include="Sizing.h" />
     <ClInclude Include="Timing.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="100000000_0.bin" />
+    <None Include="10000000_0.bin" />
+    <None Include="10000000_1.bin" />
+    <None Include="10000000_2.bin" />
+    <None Include="10000000_3.bin" />
+    <None Include="1000000_0.bin" />
+    <None Include="1000000_1.bin" />
+    <None Include="1000000_2.bin" />
+    <None Include="1000000_3.bin" />
+    <None Include="100000_0.bin" />
+    <None Include="100000_1.bin" />
+    <None Include="100000_2.bin" />
+    <None Include="100000_3.bin" />
+    <None Include="10000_0.bin" />
+    <None Include="10000_1.bin" />
+    <None Include="10000_2.bin" />
+    <None Include="10000_3.bin" />
+    <None Include="1000_0.bin" />
+    <None Include="1000_1.bin" />
+    <None Include="1000_2.bin" />
+    <None Include="1000_3.bin" />
+    <None Include="100_0.bin" />
+    <None Include="100_1.bin" />
+    <None Include="100_2.bin" />
+    <None Include="100_3.bin" />
+    <None Include="10_0.bin" />
+    <None Include="10_1.bin" />
+    <None Include="10_2.bin" />
+    <None Include="10_3.bin" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
